@@ -1,0 +1,60 @@
+the reviews are ok, but a bit shallow. 9.5/10
+
+NOTES ON PLOT 
+==============
+
+Colors are indistinguishable for color blind people
+
+tick labels are too small
+
+
+it would be nice if it said "basketball" somewhere, and had the date of the data
+
+the points are too small resulting in a lot of empty space (remember tufte's rules) and the points at 0 are chopped by the axis: an offset should be provided
+
+otherwise clear and not misleading
+
+
+
+
+NOTES ON THE PLOTS YOU REVIEWED
+===========================================
+
+
+mfilippelli
+============
+the station id is a categorical value, not a continuous one, so it should not be plotted as a position (and the idea of doing a regression on it is odd and really meaningless)
+
+the regression lines are very thick, which does not add to readability. 
+
+
+in color-blind simulations the colors become indistinguishable, particularly the green
+
+
+
+tmv237
+============
+
+the 3d is making the plot extremely hard to read. furthermore it is not needed since the third dimension is redundant with the color. the slope of the lines cannot be read clearly due to the perspective. 
+
+axis labels X,Y,Z should be changed to meaningful labels
+
+the orange label is very hard to read. 
+
+the points are larger than needed. in fact they are redundant with the line, though they may add readability to it they would be better smaller. 
+
+the horizontal grid is not needed as the value are categorical, and in fact it seem to be deformed in a way that i dont understand
+
+
+
+nk1877
+============
+
+
+the point size is redundant with the y position. redundant information is often used to reinforce an impression but it forces an opinion on the viewer thus it is generally dishonest.
+
+axis labels too small, tick labels too small
+
+the default three datapoints in the label should be changed to 1 since three are redundant 
+
+the legend is too verbose and misused: the words next to the points must explain what the variable the points represent is. an extra label referring to axis would be needed here. 
